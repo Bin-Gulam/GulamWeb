@@ -1,0 +1,83 @@
+.student-table-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.student-table-container h2 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.add-student {
+  background-color: #2196F3;
+  color: white;
+  height: 40px;
+  border-color: #2196F3;
+  border-radius: 12%;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  text-align: center;
+  width: 200px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.student-table button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 8%;
+}
+
+.student-table button:hover {
+  background-color: #45a049;
+}
+
+.student-table button:last-child {
+  background-color: #f44336;
+}
+
+.small-col {
+  width: 5%;
+}
+
+th, td {
+  white-space: nowrap;
+}
+
+td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5) {
+  width: 20%;
+}

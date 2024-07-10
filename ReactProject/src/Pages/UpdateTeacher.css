@@ -1,0 +1,57 @@
+.update-teacher-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.update-teacher-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-teacher-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-teacher-container label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.update-teacher-container input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-teacher-container .form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-teacher-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-teacher-container button:hover {
+  background-color: #45a049;
+}
+
+.update-teacher-container button[type="button"] {
+  background-color: #f44336;
+}
+
+.update-teacher-container button[type="button"]:hover {
+  background-color: #e53935;
+}
